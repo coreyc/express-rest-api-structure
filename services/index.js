@@ -1,5 +1,5 @@
-const blogService = require('./blog-post.service');
+const blogService = require('./blog-post.service')
 
 module.exports = {
   blogService
-};
+}
