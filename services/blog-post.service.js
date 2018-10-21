@@ -1,4 +1,4 @@
-const Post = require('../models/Post')
+const { blogpostDb } = require('../db')
 
 const createBlogpost = async (user, content) => {
   const post = new Post()

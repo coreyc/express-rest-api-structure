@@ -1,0 +1,27 @@
+{
+  "name": "express-rest-api-structure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreyc/express-rest-api-structure.git"
+  },
+  "author": "Corey Cleary",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4",
+    "supertest": "^3.3.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "superagent": "^4.0.0-beta.5"
+  }
+}
