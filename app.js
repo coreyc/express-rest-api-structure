@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => res.send('App is working'))
 
-app.use(routes)
+app.use('/api', routes)
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
 

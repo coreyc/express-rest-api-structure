@@ -1,4 +1,4 @@
-const blogpostDb = require('./blog-post.db')
+const { blogpostDb } = require('./blog-post.db')
 
 module.exports = {
   blogpostDb
