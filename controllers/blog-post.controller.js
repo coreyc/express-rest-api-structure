@@ -3,7 +3,7 @@ const { blogService } = require('../services')
 const { createBlogpost } = blogService
 
 /*
- * call other services, or service functions here if you need to
+ * call other imported services, or same service but different functions here if you need to
 */
 const postBlogpost = async (req, res, next) => {
   const {user, content} = req.body
@@ -15,7 +15,7 @@ const postBlogpost = async (req, res, next) => {
     next()
   } catch(e) {
     console.log(e.message)
-    res.send(500) && next(error)
+    res.sendStatus(500) && next(error)
   }
 }
 
