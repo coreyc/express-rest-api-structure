@@ -1,5 +1,3 @@
-const { getConnection } = require('../config')
-
 const blogpostDb = (user, content) => {
   /*
    * put code to call database here
