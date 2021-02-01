@@ -15,7 +15,7 @@ const postBlogpost = async (req, res, next) => {
     next()
   } catch(e) {
     console.log(e.message)
-    res.sendStatus(500) && next(error)
+    res.sendStatus(500) && next(e)
   }
 }
 
