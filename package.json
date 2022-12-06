@@ -21,8 +21,8 @@
     "supertest": "^3.3.0"
   },
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "superagent": "^4.0.0-beta.5"
   }
 }
